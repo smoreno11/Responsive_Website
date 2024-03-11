@@ -1,20 +1,69 @@
 /*External CSS */
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 
 /*h1 is the selector*/
 h1 {
   font-size: 26px;
-  font-family: sans-serif;
+
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
   font-size: 22px;
-  font-family: sans-serif;
+
   line-height: 1.5; /*changes the distance between the lines under each other*/
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*This is an id selector*/
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copywrite {
+  font-size: 16px;
+}
+/* The difference between the class and id is that the ID name can only be used once.
+   classes can be used all the time and reused. We do not use ID's classes are better 
+   for future use*/
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
 }
